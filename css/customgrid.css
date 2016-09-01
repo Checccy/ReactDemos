@@ -1,0 +1,48 @@
+    body{background: #f8f8f9}
+.list-hold{ height: 30px;position: relative;padding-top: 3px;}
+.list-panel{background: #fff;overflow: hidden;position: absolute;top: 28px;left: 0;z-index: 100;border-radius: 3px;padding: 10px;width: 100%}
+.search-list{overflow: hidden}
+.search-list li{ float: left;padding: 0 10px;line-height: 20px;background: #F2F6F9;border-radius: 1px;margin: 5px;cursor: pointer;position: relative;width: 15%;height: 20px;overflow: hidden}
+.search-list li:hover{background: #D1EAF7}
+.search-list .select{color: #FF6600;background:#F2F6F9}
+.search-list .active{ background: #FFEAEA; }
+.search-list li .selected-logo-container{display: none}
+.search-list .select .selected-logo-container{position: absolute;top: -8px;right: 0;width: 10px;height: 10px;display: block;}
+.selected-logo{ font-size: 8px;color: #27BB65}
+.list-hold-container{height: 24px;line-height: 24px;vertical-align: middle;}
+.list-holder{ float: left;line-height: 24px;vertical-align: middle;}
+.condition-selected{ position: relative;width: 100px;border: 1px solid #d7d7d7;border-radius: 2px;margin: 0 10px 0 0;height: 20px;line-height: 20px;color: #FF6600;overflow: hidden;margin-top: 2px;}
+.condition-selected:nth-child(n+6){ display: none;}
+.tab-scoller{height: 350px;overflow: auto; width: 100%}
+.condition-selected .delete-logo{ position: absolute;top: 0;right: 0;background: url("../images/tabs_icons.png") no-repeat scroll -35px -2px;width: 10px;height: 10px;cursor: pointer}
+.list-holder label{float: left;padding: 0 10px;width: 85px;}
+.add-btn{ float: left;font-size: 12px;padding:4px;cursor: pointer;background: #4389CE;color: #fff;border-radius: 2px;margin-top: 1px;}
+.delete-btn{ float: right;font-size: 12px;cursor: pointer;}
+.tab-title{ line-height: 24px;height: 20px;overflow: hidden;margin-right: 12px;}
+.tab-header{ border-bottom: 1px solid #F5F5F5;padding-bottom: 10px;}
+.tab-footer{ text-align: center;padding-top: 10px; border-top: 1px solid #F5F5F5;}
+    .normal-txt{    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 2px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    width: 200px;
+    }
+    .item-btn{    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    vertical-align: middle;
+    background: #4a7fb5;
+    margin-left: 10px;
+     }
+.btn-delayering{    -moz-user-select: none; border: 1px solid transparent; cursor: pointer; display: inline-block;font-size: 14px;font-weight: normal;line-height: 1.42857; margin-bottom: 0; padding: 4px 24px; text-align: center; vertical-align: middle;white-space: nowrap;border-radius: 1px;}
